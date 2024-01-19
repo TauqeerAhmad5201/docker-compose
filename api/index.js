@@ -19,6 +19,12 @@ app.use("/render", function (req, res, next) {
   res.send({ name: "Tauqeer Ahmad" });
   next();
 });
+
+app.use("/learning", function (req, res, next) {
+    res.send({ name: "Tauqeer Ahmad" });
+    next();
+  });
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
