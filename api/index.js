@@ -21,6 +21,7 @@ app.use("/render", function (req, res, next) {
   next();
 });
 
+// cors code to Access-Control-Allow-Origin
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   next();
