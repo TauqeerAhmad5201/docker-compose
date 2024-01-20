@@ -1,0 +1,11 @@
+{
+    "name": "Rajesh",
+    "age": 25,
+    "gender": "male",
+    "hobbies": ["reading", "cricket", "music"],
+    "address": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  }
