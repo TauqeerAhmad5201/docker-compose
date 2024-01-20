@@ -21,6 +21,11 @@ app.use("/render", function (req, res, next) {
   next();
 });
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.use("/learning", function (req, res, next) {
   console.log("Request is Incoming");
 
@@ -31,7 +36,7 @@ app.use("/learning", function (req, res, next) {
       category: "NodeJS",
       status: "published",
     },
-    endingMessage: "Visit Geeksforgeeks.org for more",
+    endingMessage: "Here you go with Docker Containers Compose",
   };
   const jsonContent = JSON.stringify(responseData);
   res.end(jsonContent);
