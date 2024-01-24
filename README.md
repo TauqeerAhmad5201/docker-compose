@@ -4,5 +4,5 @@ Smoothness of backend to frontend
 
 ## Tech used:
 
-- Fronted: React-js
+- Frontend: React-js
 - Backend: Node-js
