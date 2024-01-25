@@ -9,4 +9,6 @@ Smoothness of backend to frontend
 
 Affiliation: Sending content from backend to frontend
 
+Content form: JSON
+
 
